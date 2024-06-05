@@ -1,0 +1,44 @@
+{
+  "name": "bonds",
+  "version": "1.0.0",
+  "description": "A project using React and Ant Design",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js --open --mode development",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "dependencies": {
+    "antd": "^4.0.0",
+    "@ant-design/icons": "^4.8.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-scripts": "latest",
+    "chart.js": "^3.0.0",
+    "react-chartjs-2": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

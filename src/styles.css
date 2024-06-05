@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.table-container {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.right-column {
+    width: 450px;
+    padding-left: 10px;
+}
+
+.ant-table-tbody > .ant-table-row:hover > td {
+    background-color: transparent !important;
+}
+
+.operation-button {
+    margin-right: 8px;
+}
+
+.highlighted-row {
+    background-color: rgba(255, 99, 132, 0.2);
+}
+
+.recommended-bonds, .chart {
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 16px;
+    background: #fff;
+}
+
+.recommended-bonds {
+    margin-top: 20px;
+}
+
+.recommended-bonds h3 {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+}
+
+.recommended-bonds ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recommended-bonds ul li {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.recommended-bonds ul li:last-child {
+    border-bottom: none;
+}
+
+.recommended-bonds ul li:hover {
+    background-color: rgba(255, 99, 132, 0.2);
+}
